@@ -1,0 +1,24 @@
+Overview
+
+1. Shell scripts are interpreted not compiled.
+2. There are different types of shell:   (type: cat /etc/shells) -> this will show different kind of shells
+   Example - a)  /bin/sh
+             b)  /bin/dash
+             c)  /bin/bash    -> we will be using this
+             d)  ....... so on
+             
+'sh' stands for bourne shell which is original shell.
+'bash' stands for bourne-again shell, improved version of sh-shell. Standard GNU shell.
+
+Where bash is located ->  (type: which bash)  ->  gives location of bash
+
+Linux Commands:
+
+1. touch filename
+2. ls -al
+3. code .
+4. ./filename.sh
+    -> Permission denied  (it has only read and write permission but no execute permission. So
+5. chmod +x filename.sh      -> will give to execute permission of file.
+6. chmod -x filename.sh      -> removes the permission to execute.
+7. ls -al
